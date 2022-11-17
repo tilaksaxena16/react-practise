@@ -1,0 +1,26 @@
+.sidebar-child-container{
+    width: 20%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #837768;
+    background-color: rgb(56, 52, 52);
+}
+.padding-top10{
+    padding-top: 10px;
+}
+.border-design-sidebar{
+    border-top: 1px dotted rgb(107, 104, 104);
+}
+.padding-left15{
+    padding-left: 15px;
+}
+.padding-left30{
+    padding-left: 30px;
+}
+.sidebar-font-size{
+    font-size: 12px;
+}
+.sidebar-logo-size{
+    font-size: 13px;
+}

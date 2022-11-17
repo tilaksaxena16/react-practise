@@ -1,0 +1,15 @@
+.sidebar-child-container-logo{
+    width: 20%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(56, 52, 52);
+    justify-content: space-between;
+    color: #837768;
+}
+.padding-right25{
+    padding-right: 25px;
+}
+.white-col{
+    color: whitesmoke;
+}

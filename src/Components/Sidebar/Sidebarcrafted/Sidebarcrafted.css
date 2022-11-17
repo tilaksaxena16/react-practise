@@ -1,0 +1,12 @@
+.sidebar-child-font{
+    width: 20%;
+    height: 35px;
+    display: flex;
+    align-items: flex-end;
+    color: #8b8383;
+    background-color: rgb(56, 52, 52);
+}
+
+.padding-left25{
+    padding-left: 25px;
+}
