@@ -1,0 +1,18 @@
+.footer-container{
+    
+    height: 40px;
+    background-color: rgb(56, 52, 52);
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+.footer-child{
+    padding-left: 20px;
+    font-size: 12px;
+    color: #837768;
+}
+.footer-child-col{
+    padding-left: 2px;
+    font-size: 12px;
+    color:antiquewhite;
+}

@@ -20,3 +20,21 @@ code {
 .display{
   display: flex;
 }
+
+.width20{
+  width: 20%;
+
+}
+.width25{
+  width: 25%;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 65px;
+}
+.width50{
+  width: 50%;
+  margin-top: 65px;
+}
+.width80{
+  width: 80%;
+}

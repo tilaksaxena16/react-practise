@@ -15,6 +15,10 @@ import { Sidebarchat } from './Components/Sidebar/Sidebarchat/Sidebarchat';
 import { Sidebaruser } from './Components/Sidebar/Sidebaruser/Sidebaruser';
 import { Sidebarchangelog } from './Components/Sidebar/Sidebarchangelog/Sidebarchangelog';
 import { Sidebarbutton } from './Components/Sidebar/Sidebarbutton/Sidebarbutton';
+import { Maincontentleft } from './Components/MainContent/Maincontent-leftside/Maincontentleft';
+import { Maincontentright } from './Components/Maincontentright/Maincontentright';
+import { Maincontentcenter } from './Components/Maincontentcenter/Maincontentcenter';
+import { Footer } from './Components/Footer/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -25,19 +29,27 @@ root.render(
         <Pagelogo></Pagelogo>
         <Header></Header>
       </div>
-      <div>
-        <Sidebardashboard></Sidebardashboard>
-        <Sidebarlayout></Sidebarlayout>
-        <Sidebarcrafted></Sidebarcrafted>
-        <Sidebarpages></Sidebarpages>
-        <Sidebaraccounts></Sidebaraccounts>
-        <Sidebarerrors></Sidebarerrors>
-        <Sidebarwidgets></Sidebarwidgets>
-        <Sidebarapps></Sidebarapps>
-        <Sidebarchat></Sidebarchat>
-        <Sidebaruser></Sidebaruser>
-        <Sidebarchangelog></Sidebarchangelog>
-        <Sidebarbutton></Sidebarbutton>
+      <div className='display'>
+        <div className='width20'>
+          <Sidebardashboard></Sidebardashboard>
+          <Sidebarlayout></Sidebarlayout>
+          <Sidebarcrafted></Sidebarcrafted>
+          <Sidebarpages></Sidebarpages>
+          <Sidebaraccounts></Sidebaraccounts>
+          <Sidebarerrors></Sidebarerrors>
+          <Sidebarwidgets></Sidebarwidgets>
+          <Sidebarapps></Sidebarapps>
+          <Sidebarchat></Sidebarchat>
+          <Sidebaruser></Sidebaruser>
+          <Sidebarchangelog></Sidebarchangelog>
+          <Sidebarbutton></Sidebarbutton>
+        </div>
+        <div className='width25'>
+          <Maincontentleft></Maincontentleft>
+        </div>
+        <div className='width50'>
+          <Maincontentright></Maincontentright>
+        </div>
       </div>
     </div>
   </>

@@ -1,0 +1,66 @@
+.maincontentright-container {
+
+    height: 410px;
+    background-color: rgb(56, 52, 52);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.maincontentright-child-div{
+    display: flex;
+    align-items: center;
+}
+.maincontentright-child-div1{
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+}
+.padding-erroricon{
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+.maincontent-div-padding{
+    padding-right: 70px;
+    padding-top: 50px;
+}
+.maincontent-card{
+    width: 250px;
+    height: 100px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.border-card-left{
+    border: 1px dotted #17a3f5;
+}
+.border-card-right{
+    border: 1px dotted #837768;
+}
+.maincontent-button{
+    width: 100px;
+    height: 19px;
+    background-color: #17a3f5;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.margin-div{
+    margin-left: 63px;
+}
+.maincontent-button-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.padding-icon-maincontent{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+}
