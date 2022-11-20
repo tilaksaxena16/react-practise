@@ -3,12 +3,13 @@
     margin: 0;
 }
 .pagelogo-container{
-    width: 20%;
+    width: 100%;
     height: 50px;
     background-color: rgb(56, 52, 52);
     display: flex;
     justify-content: start;
     align-items: center;
+    border-bottom: 1px dotted #837768;
 
 }
 .page-logo{

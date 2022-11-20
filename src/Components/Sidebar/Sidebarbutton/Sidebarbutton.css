@@ -1,6 +1,6 @@
 .sidebar-button-container{
-
-    height: 129px;
+    width: 20%;
+    height: 160px;
     background-color: rgb(56, 52, 52);
     color: whitesmoke;
     display: flex;

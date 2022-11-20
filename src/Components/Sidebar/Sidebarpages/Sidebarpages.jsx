@@ -1,14 +1,14 @@
 import React from "react";
 import "./Sidebarpages.css";
 
-const Sidebarpages = () =>{
+const Sidebarpages = (user) =>{
 
     return(
         <>
-        <div className="sidebar-child-container-logo padding-top10">
+        <div className="sidebar-child-container-logo">
             <div>
                 <i className="fa-solid fa-file-lines padding-left30"></i>
-                <label className="padding-left15 sidebar-font-size white-col">Pages</label>
+                <label className="padding-left15 sidebar-font-size">{user.name}</label>
             </div>
             <div>
                 <i className="fa-solid fa-angle-down sidebar-logo-size padding-right25"></i>

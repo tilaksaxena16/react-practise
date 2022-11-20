@@ -19,7 +19,6 @@ const Maincontentright = () => {
                     <div className="maincontent-card border-card-left">
                         <div>
                             <i className="fa-solid fa-file-invoice darkgrey-col padding-icon-maincontent"></i>
-
                         </div>
                         <div>
                             <h4 className="white-col">Personal Account</h4>

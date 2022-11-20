@@ -1,13 +1,13 @@
 import React from "react";
 import "./Sidebardashboard.css";
 
-const Sidebardashboard = () => {
+const Sidebardashboard = (user) => {
 
     return (
         <>
-            <div className="sidebar-child-container padding-top10 border-design-sidebar">
+            <div className="sidebar-child-container">
                 <i className="fa-solid fa-layer-group padding-left30 sidebar-logo-size"></i>
-                <label className="padding-left15 sidebar-font-size">Dashboard</label>
+                <label className="padding-left15 sidebar-font-size">{user.name}</label>
             </div>
         </>
     )
